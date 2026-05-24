@@ -50,6 +50,9 @@
 
   programs.xwayland.enable = true;
 
+  programs.fish.enable = true;
+  users.users.hiro.shell = pkgs.fish;
+
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
     noto-fonts-cjk-sans
@@ -68,6 +71,12 @@
     vim
     neovim
     eza
+    ripgrep
+    zoxide
+    starship
+    bat
+    xclip
+    yazi
     firefox
     brightnessctl
   ];
