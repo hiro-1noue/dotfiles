@@ -64,6 +64,7 @@
     wget
     vim
     firefox
+    brightnessctl
   ];
 
   home-manager.useGlobalPkgs = true;
@@ -190,6 +191,9 @@
       bindel = ,XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
       bindel = ,XF86MonBrightnessUp, exec, brightnessctl -e4 -n2 set 5%+
       bindel = ,XF86MonBrightnessDown, exec, brightnessctl -e4 -n2 set 5%-
+
+      bindel = ,XF86MonBrightnessUp, exec, brightnessctl set +5%
+      bindel = ,XF86MonBrightnessDown, exec. brightnessctl set -5%
 
       windowrule = suppressevent maximize, class:.*
       windowrule = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
