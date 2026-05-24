@@ -18,7 +18,7 @@
       system = "x86_64-linux";
 
       modules = [
-        ./configuration.nix
+        ./nixos/hosts/nixos/configuration.nix
         home-manager.nixosModules.home-manager
         hyprland.nixosModules.default
 
@@ -27,7 +27,7 @@
           home-manager.useUserPackages = true;
           home-manager.backupFileExtension = "backup";
           home-manager.extraSpecialArgs = { inherit inputs; };
-          home-manager.users.hiro = import ./home.nix;
+          home-manager.users.hiro = import ./home/home.nix;
         }
       ];
     };
