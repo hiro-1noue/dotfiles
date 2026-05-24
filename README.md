@@ -19,7 +19,7 @@ sudo nixos-rebuild switch --flake /etc/nixos#nixos
 
 ```sh
 git status
-git add flake.nix home.nix configuration.nix hardware-configuration.nix flake.lock README.md
+git add flake.nix home.nix configuration.nix hardware-configuration.nix flake.lock README.md config .gitignore
 git commit -m "Manage user environment with Home Manager"
 git push origin main
 ```

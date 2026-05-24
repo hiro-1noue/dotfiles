@@ -7,6 +7,14 @@
 
   programs.home-manager.enable = true;
 
+  xdg.configFile = {
+    "hypr/hyprland.conf".source = ./config/hypr/hyprland.conf;
+    "kitty/kitty.conf".source = ./config/kitty/kitty.conf;
+    "starship.toml".source = ./config/starship.toml;
+    "waybar/config.jsonc".source = ./config/waybar/config.jsonc;
+    "wofi/style.css".source = ./config/wofi/style.css;
+  };
+
   home.packages = with pkgs; [
     bat
     brightnessctl

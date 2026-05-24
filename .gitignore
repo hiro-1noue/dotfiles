@@ -1,0 +1,6 @@
+*.bak
+*.backup
+fish_variables
+pulse/cookie
+result
+result-*

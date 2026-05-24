@@ -1,0 +1,21 @@
+{
+	"layer": "top",
+	"position": "top",
+	"height": 30,
+	"modules-left": ["hyprland/workspaces", "clock"],
+	"modules-right": ["battery", "network"],
+
+	"hyprland/workspaces": {
+		"format": "{id}"
+	},
+	"clock": {
+		"format": "{:%H:%M}"
+	},
+	"battery": {
+		"format": "{capacity}%"
+	},
+	"network": {
+		"format-wifi": "wifi:{essid}",
+		"format-disconnected": "disconnected"
+	}
+}
