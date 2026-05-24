@@ -79,6 +79,8 @@
     yazi
     firefox
     brightnessctl
+    cargo
+    gcc
   ];
 
 }
