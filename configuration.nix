@@ -31,6 +31,15 @@
     variant = "";
   };
 
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
+
+  security.rtkit.enable = true;
+
   users.users.hiro = {
     isNormalUser = true;
     description = "hiro";
