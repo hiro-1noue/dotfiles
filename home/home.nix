@@ -4,6 +4,14 @@
   home.username = "hiro";
   home.homeDirectory = "/home/hiro";
   home.stateVersion = "25.05";
+  home.sessionVariables = {
+    GTK_IM_MODULE = "fcitx";
+    QT_IM_MODULE = "fcitx";
+    XMODIFIERS = "@im=fcitx";
+    SDL_IM_MODULE = "fcitx";
+    GLFW_IM_MODULE = "ibus";
+    INPUT_METHOD = "fcitx";
+  };
 
   programs.home-manager.enable = true;
 
@@ -13,6 +21,23 @@
     "starship.toml".source = ../config/starship.toml;
     "waybar/config.jsonc".source = ../config/waybar/config.jsonc;
     "wofi/style.css".source = ../config/wofi/style.css;
+    "fcitx5/profile".text = ''
+      [Groups/0]
+      Name=Default
+      Default Layout=jp
+      DefaultIM=mozc
+
+      [Groups/0/Items/0]
+      Name=keyboard-jp
+      Layout=
+
+      [Groups/0/Items/1]
+      Name=mozc
+      Layout=
+
+      [GroupOrder]
+      0=Default
+    '';
   };
 
   home.packages = with pkgs; [
