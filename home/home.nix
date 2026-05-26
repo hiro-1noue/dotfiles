@@ -76,6 +76,7 @@
     wofi
     xclip
     yazi
+    nodejs_22
   ];
 
   programs.bat.enable = true;
