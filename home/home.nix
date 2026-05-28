@@ -77,6 +77,7 @@
     xclip
     yazi
     nodejs_22
+    discord
   ];
 
   programs.bat.enable = true;
