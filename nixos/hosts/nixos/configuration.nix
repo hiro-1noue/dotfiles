@@ -120,6 +120,9 @@
     brightnessctl
     cargo
     gcc
+    nmap
+    burpsuite
+    ghidra
   ];
 
 }
