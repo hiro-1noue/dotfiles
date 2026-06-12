@@ -123,6 +123,7 @@
     nmap
     burpsuite
     ghidra
+    tree-sitter
   ];
 
 }
