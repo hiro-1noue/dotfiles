@@ -120,6 +120,7 @@
     brightnessctl
     cargo
     gcc
+    python3
     nmap
     gobuster
     burpsuite
