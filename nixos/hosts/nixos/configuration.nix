@@ -125,6 +125,7 @@
     gobuster
     burpsuite
     ghidra
+    hydra
     tree-sitter
   ];
 
