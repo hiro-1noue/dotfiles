@@ -121,6 +121,7 @@
     cargo
     gcc
     nmap
+    gobuster
     burpsuite
     ghidra
     tree-sitter
