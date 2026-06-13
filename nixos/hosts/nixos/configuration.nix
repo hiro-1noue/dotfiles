@@ -98,6 +98,7 @@
   ];
 
   environment.systemPackages = with pkgs; [
+    file
     kitty
     wofi
     waybar
