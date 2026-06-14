@@ -81,6 +81,7 @@
     nodejs_22
     discord
     nyancat
+    glow
   ];
 
   programs.bat.enable = true;
