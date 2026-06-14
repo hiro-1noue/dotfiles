@@ -80,6 +80,7 @@
     yazi
     nodejs_22
     discord
+    nyancat
   ];
 
   programs.bat.enable = true;

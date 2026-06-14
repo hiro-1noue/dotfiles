@@ -108,6 +108,7 @@
     git
     wget
     imv
+    docker
     vim
     neovim
     eza
