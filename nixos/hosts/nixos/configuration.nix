@@ -130,6 +130,7 @@
     hydra
     tree-sitter
     openvpn
+    net-snmp
   ];
 
 }
