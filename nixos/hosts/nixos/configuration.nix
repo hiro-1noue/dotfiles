@@ -129,6 +129,7 @@
     ghidra
     hydra
     tree-sitter
+    openvpn
   ];
 
 }
