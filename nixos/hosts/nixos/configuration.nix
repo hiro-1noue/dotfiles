@@ -131,6 +131,7 @@
     tree-sitter
     openvpn
     net-snmp
+    nfs-utils
   ];
 
 }
