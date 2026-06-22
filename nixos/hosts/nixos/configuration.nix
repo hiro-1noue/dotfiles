@@ -132,6 +132,12 @@
     openvpn
     net-snmp
     nfs-utils
+
+    # for lsp
+    rust-analyzer
+    typescript-language-server
+    clang-tools
+    lua-language-server
   ];
 
 }
