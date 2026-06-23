@@ -132,6 +132,7 @@
     openvpn
     net-snmp
     nfs-utils
+    wireshark
 
     # for lsp
     rust-analyzer
