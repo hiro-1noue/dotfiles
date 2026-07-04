@@ -10,6 +10,7 @@
 
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
+  networking.firewall.allowedTCPPorts = [ 1234 ];
 
   time.timeZone = "Asia/Tokyo";
 
@@ -31,6 +32,8 @@
     variant = "";
   };
 
+  virtualisation.docker.enable = true;
+
   services.pipewire = {
     enable = true;
     alsa.enable = true;
@@ -43,7 +46,7 @@
   users.users.hiro = {
     isNormalUser = true;
     description = "hiro";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [];
   };
 
@@ -97,6 +100,12 @@
     noto-fonts-cjk-sans
   ];
 
+  networking.extraHosts = ''
+  10.129.33.105 connected.htb
+  10.129.94.45 thetoppers.htb
+  10.129.94.45 s3.thetoppers.htb
+'';
+
   environment.systemPackages = with pkgs; [
     file
     kitty
@@ -123,6 +132,7 @@
     cargo
     gcc
     python3
+    xdg-utils
     nmap
     gobuster
     burpsuite
@@ -133,6 +143,11 @@
     net-snmp
     nfs-utils
     wireshark
+    awscli2
+    john
+    sqlmap
+    azure-cli
+    samba
 
     # for lsp
     rust-analyzer

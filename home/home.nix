@@ -79,7 +79,8 @@
     xclip
     yazi
     nodejs_22
-    discord
+    # discord
+    vesktop
     nyancat
     glow
   ];
