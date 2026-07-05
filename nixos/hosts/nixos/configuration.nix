@@ -148,6 +148,9 @@
     sqlmap
     azure-cli
     samba
+    zip
+    unzip
+
 
     # for lsp
     rust-analyzer
