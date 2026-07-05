@@ -32,10 +32,8 @@
     "interval": 5
   },
   "pulseaudio": {
-    "format": "VOL",
-    "format-muted": "MUTE",
-    "tooltip-format": "{volume}%",
-    "on-click": "pavucontrol",
+    "format": "{volume}",
+    "format-muted": "-",
     "scroll-step": 5
   }
 }

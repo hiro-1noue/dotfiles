@@ -1,0 +1,19 @@
+#workspaces button {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    transition: font-size 0.15s ease, padding 0.15s ease;
+}
+
+/* 現在のワークスペースは常に見える */
+#workspaces button.active {
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+/* コンテナにhoverしたら全部見える */
+#workspaces:hover button {
+    font-size: 12px;
+    padding: 4px 0;
+}
