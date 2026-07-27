@@ -12,6 +12,7 @@
 
     # GUI applications
     firefox
+    hyprland
     kitty
     vesktop
     waybar
