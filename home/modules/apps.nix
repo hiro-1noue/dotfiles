@@ -16,7 +16,7 @@
     kitty
     vesktop
     waybar
-    wofi
+    fuzzel
 
     # development
     nodejs_22
