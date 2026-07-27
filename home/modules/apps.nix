@@ -6,6 +6,7 @@
     brightnessctl
     fastfetch
     imv
+    neovim
     vim
     xclip
     yazi
