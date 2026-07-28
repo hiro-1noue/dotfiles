@@ -22,6 +22,7 @@
     # development
     nodejs_22
     tree-sitter
+    uv
 
     # LSP servers
     clang-tools
