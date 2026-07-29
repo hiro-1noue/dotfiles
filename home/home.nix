@@ -7,6 +7,7 @@
     ./modules/gtk.nix
     ./modules/dotfiles.nix
     ./modules/input-method.nix
+    ./modules/wallpaper.nix
   ];
 
   home.username = "hiro";
