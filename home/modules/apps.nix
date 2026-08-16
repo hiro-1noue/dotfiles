@@ -5,6 +5,7 @@
     # terminal utilities
     brightnessctl
     fastfetch
+    hyprshot
     imv
     neovim
     vim

@@ -29,9 +29,13 @@ let
       done
     }
 
+    until ${pkgs.awww}/bin/awww query > /dev/null 2>&1; do
+      sleep 0.1
+    done
+
     set_wallpaper
     ${pkgs.socat}/bin/socat -U - \
-      UNIX-CONNECT:"/tmp/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock" | \
+      UNIX-CONNECT:"$XDG_RUNTIME_DIR/hypr/$HYPRLAND_INSTANCE_SIGNATURE/.socket2.sock" | \
       while IFS= read -r line; do
         if [[ "$line" == monitoradded* ]]; then
           sleep 0.3

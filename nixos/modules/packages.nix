@@ -31,6 +31,7 @@
     hydra
     john
     nmap
+    nssTools
     sqlmap
     wireshark
 

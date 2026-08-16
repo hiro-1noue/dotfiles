@@ -8,6 +8,8 @@
     '';
   };
 
+  home.sessionPath = [ "$HOME/bin" ];
+
   programs.starship = {
     enable = true;
     enableFishIntegration = true;
