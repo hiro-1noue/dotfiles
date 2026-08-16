@@ -14,6 +14,7 @@
 
     # GUI applications
     firefox
+    nyxt
     hyprland
     kitty
     vesktop
