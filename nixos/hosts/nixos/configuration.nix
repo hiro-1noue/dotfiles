@@ -17,6 +17,9 @@
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
   networking.firewall.allowedTCPPorts = [ 1234 ];
+  hardware.bluetooth.enable = true;
+  hardware.bluetooth.powerOnBoot = true;
+  services.blueman.enable = true;
   networking.extraHosts = ''
     10.129.33.105 connected.htb
     10.129.94.45 thetoppers.htb

@@ -22,6 +22,7 @@
     fuzzel
 
     # development
+    codex
     nodejs_22
     tree-sitter
     uv
