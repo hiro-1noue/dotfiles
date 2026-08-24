@@ -17,9 +17,11 @@
     nyxt
     hyprland
     kitty
+    slack
     vesktop
     waybar
     fuzzel
+    zoom-us
 
     # development
     codex
