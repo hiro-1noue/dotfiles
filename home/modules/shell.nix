@@ -6,6 +6,10 @@
     interactiveShellInit = ''
       set fish_greeting
     '';
+    shellAliases = {
+      python = "/run/current-system/sw/bin/python";
+      python3 = "/run/current-system/sw/bin/python3";
+    };
   };
 
   home.sessionPath = [ "$HOME/bin" ];

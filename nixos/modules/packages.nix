@@ -12,7 +12,9 @@
     # build tools
     cargo
     gcc
-    python3
+    (python313.withPackages (pythonPackages: with pythonPackages; [
+      numpy
+    ]))
 
     # cloud CLIs
     awscli2
