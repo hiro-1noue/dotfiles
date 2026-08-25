@@ -14,6 +14,7 @@
     gcc
     (python313.withPackages (pythonPackages: with pythonPackages; [
       numpy
+      pandas
     ]))
 
     # cloud CLIs
