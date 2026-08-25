@@ -15,6 +15,7 @@
     (python313.withPackages (pythonPackages: with pythonPackages; [
       numpy
       pandas
+      matplotlib
     ]))
 
     # cloud CLIs
