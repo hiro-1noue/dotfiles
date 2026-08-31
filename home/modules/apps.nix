@@ -29,6 +29,10 @@
     tree-sitter
     uv
 
+    # ctf
+    pwntools
+    gdb
+
     # LSP servers
     clang-tools
     lua-language-server
