@@ -14,6 +14,7 @@
 
     # GUI applications
     firefox
+    google-chrome
     nyxt
     hyprland
     kitty
