@@ -32,11 +32,11 @@
     burpsuite
     ghidra
     gobuster
-    hydra
     john
     nmap
     nssTools
     sqlmap
+    thc-hydra
     wireshark
 
     claude-code
