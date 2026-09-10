@@ -8,6 +8,7 @@
     xdg-utils
     zip
     unzip
+    p7zip
 
     # build tools
     cargo
