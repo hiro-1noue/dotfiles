@@ -33,6 +33,7 @@
     # ctf
     pwntools
     gdb
+    binwalk
 
     # LSP servers
     clang-tools
