@@ -16,7 +16,7 @@
 
   networking.hostName = "nixos";
   networking.networkmanager.enable = true;
-  networking.firewall.allowedTCPPorts = [ 1234 ];
+  networking.firewall.allowedTCPPorts = [ 1234 8000 ];
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
   services.blueman.enable = true;

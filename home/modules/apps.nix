@@ -34,6 +34,8 @@
     pwntools
     gdb
     binwalk
+    steghide
+    ffuf
 
     # LSP servers
     clang-tools
