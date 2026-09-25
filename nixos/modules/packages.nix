@@ -17,6 +17,8 @@
       numpy
       pandas
       matplotlib
+      beautifulsoup4
+      requests
     ]))
 
     # cloud CLIs

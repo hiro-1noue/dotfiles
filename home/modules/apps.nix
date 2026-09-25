@@ -29,13 +29,17 @@
     nodejs_22
     tree-sitter
     uv
+    unrar
 
     # ctf
-    pwntools
+    pwntools # pwn
     gdb
-    binwalk
+    binwalk # steg
     steghide
-    ffuf
+    stegseek
+    zsteg
+    ffuf # fuzz
+    hashcat # hash
 
     # LSP servers
     clang-tools
