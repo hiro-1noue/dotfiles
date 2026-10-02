@@ -40,6 +40,7 @@
     zsteg
     ffuf # fuzz
     hashcat # hash
+    hexedit # bin
 
     # LSP servers
     clang-tools
