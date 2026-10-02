@@ -39,6 +39,7 @@
     stegseek
     zsteg
     ffuf # fuzz
+    wpscan
     hashcat # hash
     hexedit # bin
 
