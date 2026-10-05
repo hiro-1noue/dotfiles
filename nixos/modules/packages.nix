@@ -19,6 +19,7 @@
       matplotlib
       beautifulsoup4
       requests
+      rich
     ]))
 
     # cloud CLIs
