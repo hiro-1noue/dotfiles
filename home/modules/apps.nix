@@ -31,7 +31,8 @@
     uv
     unrar
 
-    # ctf
+    # ctf&pentesting
+    metasploit
     pwntools # pwn
     gdb
     binwalk # steg
